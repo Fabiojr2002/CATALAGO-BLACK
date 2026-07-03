@@ -101,3 +101,40 @@
     .ph-name { font-size: 30px; }
     .price-big .pv { font-size: 46px; }
   }
+
+  /* Última seção: contato no estilo do mockup enviado */
+  #s7 { padding: 38px 24px 104px !important; justify-content: flex-start; }
+  #s7 .end-bg { background-position: center; filter: saturate(0.9) contrast(1.05); }
+  #s7 .end-overlay { background: linear-gradient(105deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.68) 48%, rgba(0,0,0,0.9) 100%); }
+  #s7 .end-content { justify-content: flex-start; }
+  #s7 .end-panel { display: flex; flex-direction: column; width: 100%; max-width: 100%; }
+  #s7 .end-title { font-size: 29px; letter-spacing: 0.5px; line-height: 0.95; margin-bottom: 6px; text-shadow: 0 2px 0 rgba(0,0,0,0.35); }
+  #s7 .end-sub { font-size: 9px; letter-spacing: 2px; margin-bottom: 17px; color: rgba(255,255,255,0.58); }
+  #s7 .end-info { display: flex; align-items: center; gap: 12px; min-height: 46px; padding: 8px 6px; border-bottom: 1px solid rgba(255,255,255,0.11); color: #fff !important; text-decoration: none !important; }
+  #s7 .end-info:hover { background: rgba(212,160,23,0.08); transform: translateX(3px); }
+  #s7 .end-ico { width: 18px; flex: 0 0 18px; text-align: center; font-size: 17px; filter: drop-shadow(0 1px 0 #000); }
+  #s7 .end-copy p { color: rgba(255,255,255,0.5); font-size: 9px; font-family: Arial, sans-serif; margin-bottom: 3px; text-decoration: none; }
+  #s7 .end-copy strong { display: block; color: #fff; font-size: 12px; line-height: 1.28; letter-spacing: 0.15px; text-decoration: none; }
+  #s7 .hours-card { margin-top: 10px; padding: 12px 13px 11px; border: 1px solid rgba(212,160,23,0.65); border-radius: 7px; background: linear-gradient(105deg, rgba(212,160,23,0.18), rgba(0,0,0,0.62)); box-shadow: inset 0 0 22px rgba(212,160,23,0.06); }
+  #s7 .hours-head { color: #D4A017; font-size: 9px; letter-spacing: 3px; margin-bottom: 10px; }
+  #s7 .hours-head span { letter-spacing: 0; margin-right: 6px; }
+  #s7 .hours-row { display: flex; justify-content: space-between; gap: 18px; color: rgba(255,255,255,0.82); font-family: Arial, sans-serif; font-size: 10px; line-height: 1.7; }
+  #s7 .hours-row strong { color: #D4A017; font-family: 'Arial Black', Arial, sans-serif; letter-spacing: 1px; white-space: nowrap; }
+  #s7 .hours-row .closed { color: rgba(255,255,255,0.55); }
+  #s7 .social-actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 20px; }
+  #s7 .social-btn { min-height: 36px; display: flex; align-items: center; justify-content: center; border-radius: 5px; background: rgba(0,0,0,0.68); font-size: 10px; letter-spacing: 0.5px; text-decoration: none !important; transition: background 0.2s, transform 0.2s; }
+  #s7 .social-btn:hover { background: rgba(255,255,255,0.06); transform: translateY(-1px); }
+  #s7 .social-btn.whatsapp { border: 2px solid #00e676; color: #00e676 !important; }
+  #s7 .social-btn.instagram { border: 2px solid #ff1468; color: #ff1468 !important; }
+  #s7 .social-btn.site { border: 2px solid #18a8ff; color: #18a8ff !important; }
+  #s7 .logo-end { margin-top: 16px; }
+  #s7 .logo-end .lb { font-size: 34px; line-height: 1; }
+  #s7 .logo-end div:last-child { font-size: 10px; color: rgba(255,255,255,0.25); letter-spacing: 8px; margin-top: 5px; font-family: Arial, sans-serif; font-weight: 400; }
+
+  @media (max-width: 480px) {
+    #s7 { padding: 34px 24px 98px !important; }
+    #s7 .end-title { font-size: 28px; }
+    #s7 .social-actions { gap: 7px; }
+    #s7 .social-btn { font-size: 9px; }
+    #s7 .logo-end div:last-child { letter-spacing: 6px; }
+  }
