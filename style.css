@@ -182,3 +182,16 @@
     .schedule-day { grid-template-columns: 40px 1fr; padding: 8px; }
     .schedule-day span { font-size: 10px; }
   }
+
+  /* Ajuste visual: aulas no mesmo padrão escuro/dourado dos planos */
+  .class-slide .class-content { color: #fff; text-shadow: 0 2px 8px rgba(0,0,0,0.85); }
+  .class-slide .class-kicker,
+  .class-slide .class-title,
+  .class-slide .class-sub,
+  .class-slide .class-card,
+  .class-slide .class-list,
+  .class-slide .price-card,
+  .class-slide .schedule-day,
+  .class-slide .schedule-warn { position: relative; z-index: 2; }
+  .schedule-slide .class-content { justify-content: center; }
+  .schedule-slide .schedule-table { background: rgba(0,0,0,0.28); border-radius: 10px; padding: 6px; backdrop-filter: blur(1px); }
